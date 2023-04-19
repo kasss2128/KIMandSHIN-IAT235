@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jean Prouvé : Design made Simple</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+
+    <!-- HEADER AND MAIN IMAGE -->
+    <header>
+
+        <div class="hero">
+            <div class="hero-overlay" style="background: rgba(0, 0, 0, .3)"></div>
+            <video playsinline autoplay muted loop poster="Image/background.jpeg">
+                <source src="Image/background.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                <img src="Image/background.jpeg" title="Your browser does not support the video tag.">
+            </video>
+        </div>
+
+        <div class="hero-msg fade">
+            <h1>Logic, Balance, and Purity</h1>
+            <h3>The value in simple shapes and forms</h3>
+        </div>
+
+        <div class="nav-wrapper">
+            <nav>
+                <h1><a href="index.html">Jean Prouvé : Design made Simple</a></h1>
+                <ul class="main-nav">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="exhibitions.html">Featured Exhibitions</a></li>
+                    <li><a href="#visit">Visit</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <section>
+            <div class="section-centered fadein">
+                <p class="pull-quote" style="width: 55%;">
+                    The Vancouver Art Gallery is delighted to host the Jean Prouvé exhibition.
+                </p>
+                <a href="exhibitions.html" class="section-link">View Exhibitions &rarr;</a>
+            </div>
+        </section>
+
+        <section
+            class="section-full-image section-margin-top section-margin-bottom"
+            style="height: 50vh; background-image: url('Image/lamp4.jpg')"
+        >
+        </section>
+
+        <section class="section-margin-bottom">
+            <div class="section-centered">
+                <div class="section-text-block fadein">
+                    <div class="section-text-block-title">
+                        <h1>Design made Simple</h1>
+                    </div>
+                    <article>
+                        <p>Jean Prouvé's designs were known for their simplicity, functionality, and industrial aesthetic, reflecting his background in metalworking and engineering. He believed that design should serve a practical purpose and that beautiful and well-made objects could be produced using industrial manufacturing techniques.</p>
+                    </article>
+                    <article>
+                        <p>This exhibition aims to display Prouvé's masterful use of matrial, light and primitive shapes to create spaces that exude the Shinto concept of "emptiness".</p>
+                    </article>
+                </div>
+                <div class="button-wrapper-right fadein">
+                    <a href="about.html" class="btn-light">Learn more</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="visit" class="section-white">
+            <div class="section-centered section-padding-top section-padding-bottom">
+
+                <h1 class="fadein">Exhibition Info</h1>
+
+                <img src="Image/background.jpeg" class="fadein section-width-image" style="height: 30vh" alt="Jean Prouvé exhibition preview">
+
+                <div class="exhibition-info fadein">
+
+                    <div class="exhibition-info-side">
+                        <h1>Opening Hours</h1>
+                        <p>Monday to Friday<br>10 AM &mdash; 8 PM</p>
+                        <p>Saturday<br>10 PM &mdash; 7 PM</p>
+                        <p>Sunday<br>10 PM &mdash; 6 PM</p>
+                    </div>
+
+                    <div class="exhibition-info-side">
+                        <h1>Ticket Prices</h1>
+                        <p>General Admission<br>$29</p>
+                        <p>Senior (65+)<br>$10 CAD</p>
+                        <p>Youth (12 and under)<br>Free</p>
+                    </div>
+
+                    <div class="exhibition-info-side">
+                        <h1>Location</h1>
+                        <p>Vancouver Art Gallery</p>
+                        <p>750 Hornby St</p>
+                        <p>Vancouver, BC V6Z 2H7, Canada</p>
+                        <p>604.662.4700</p>
+                    </div>
+
+                </div>
+
+                <hr class="fadein">
+
+                <div class="exhibition-tickets">
+                    <div class="exhibition-tickets-inner fadein">
+                        <div class="exhibition-tickets-form">
+                            <h1>Purchase Tickets</h1>
+                            <input type="number" name="general" min= "0" max="100" step="1" value="0">
+                            <label for="general">General Admission ($29)</label><br>
+                            <input type="number" name="senior" min= "0" max="100" step="1" value="0">
+                            <label for="senior">Senior ($10)</label><br>
+                            <input type="number" name="youth" min= "0" max="100" step="1" value="0">
+                            <label for="youth">Youth (Free)</label>
+                            <p class="warning">Note: Tickets are non-refundable.</p>
+                            <a href="index.html" class="btn-dark btn-bottom">Buy Tickets</a>
+                        </div>
+                        <img src="Image/background2.png" alt="Jean Prouvé exhibition">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-inner">
+            <h1 class="footer-title"><a href="index.html">Jean Prouvé : Design made Simple</a></h1>
+        </div>
+        <div class="footer-inner">
+            <span class="footer-section">
+                <address>
+                    <p>750 Hornby Street</p>
+                    <p>Vancouver, BC V6Z 2H7</p>
+                    <p><a href="mailto:info@vanartgallery.bc.ca">info@vanartgallery.bc.ca</a></p>
+                    <p>604.662.4700</p>
+                </address>
+            </span>
+            <span class="footer-section">
+                <p><a href="index.html">Home</a></p>
+                <p><a href="about.html">About</a></p>
+                <p><a href="exhibitions.html">Exhibitions</a></p>
+                <p><a href="#visit">Visit</a></p>
+            </span>
+            <span class="footer-section">
+                <p><a href="citations.txt" target="_blank">Citations</a></p>
+            </span>
+        </div>   
+        <div class="footer-inner">
+            <p class="copyright">&copy; Designed by Heesoo Kim and Sayoung Shin.</p>
+        </div> 
+    </footer>
+    
+    <!-- BACK TO TOP BUTTON -->
+    <button id="top-btn"><img src="Image/up-arrow.svg" alt="Up Arrow"></svg></button>
+    <p id="top-msg">Back to Top</p>
+    
+    <script src="scripts.js"></script>
+</body>
+
+</html>
